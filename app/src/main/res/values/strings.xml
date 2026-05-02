@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScrollBlocker</string>
+    <string name="accessibility_service_label">ScrollBlocker</string>
+    <string name="accessibility_service_description">Detects YouTube Shorts, Instagram Reels, and TikTok, then immediately returns you to the home screen to help you avoid doomscrolling.</string>
+</resources>
