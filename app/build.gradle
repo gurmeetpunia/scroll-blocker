@@ -15,6 +15,14 @@ android {
         versionName "1.0"
     }
 
+    signingConfigs {
+        release {
+            storeFile file("$rootDir/scrollblocker.jks")
+            storePassword "YOUR_KEYSTORE_PASSWORD"
+            keyAlias "scrollblocker"
+            keyPassword "YOUR_KEY_PASSWORD"
+        }
+    }
     buildTypes {
         release {
             minifyEnabled false
